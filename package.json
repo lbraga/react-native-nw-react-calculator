@@ -64,6 +64,7 @@
     "flux": "^2.1.1",
     "grunt": "^0.4.5",
     "history": "^2.0.1",
+    "informed": "^1.7.2",
     "keymirror": "^0.1.1",
     "normalize.css": "^3.0.3",
     "object-assign": "^4.0.1",
