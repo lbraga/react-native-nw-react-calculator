@@ -1,6 +1,6 @@
 'use strict';
 
-import App from './common/components/App';
+import Login from './common/components/login/Login';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
@@ -13,6 +13,6 @@ var content = document.getElementById('content');
 
 ReactDOM.render((
   <Router history={hashHistory}>
-    <Route path="/" component={App} />
+    <Route path="/" component={Login} />
   </Router>
 ), content);
